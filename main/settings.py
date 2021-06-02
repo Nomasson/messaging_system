@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-0z6a6w(a!lw45ui*_@f2&=jt2l7_p*9#l_@$#=ft4b!65t@^+3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['messaging-system-noam-ossia.herokuapp.com']
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
