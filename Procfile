@@ -1,1 +1,1 @@
-web: gunicorn messageApp
+web: waitress-serve  main.wsgi:application
